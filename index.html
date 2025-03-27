@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PopWorld - Curiosidades do Mundo Pop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="loader">
+        <div class="pop-icon">🎤</div>
+        <div class="pop-icon">🎬</div>
+        <div class="pop-icon">🎮</div>
+        <div class="pop-icon">🌟</div>
+    </div>
+
+    <header>
+        <div class="logo" id="logo">
+            <span>POP</span><span>WORLD</span>
+        </div>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="#" class="active" data-section="home">Home</a></li>
+                <li><a href="filmes.html" data-section="movies">Filmes</a></li>
+                <li><a href="musica.html" data-section="music">Música</a></li>
+                <li><a href="jogos.html" data-section="games">Jogos</a></li>
+                <li><a href="celebridades.html" data-section="celebs">Celebridades</a></li>
+                <li><a href="contatos.html" data-section="contact">Contato</a></li>
+            </ul>
+        </nav>
+        <button class="menu-toggle" id="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </button>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Descubra o <span>Mundo Pop</span></h1>
+                <p>Curiosidades, fatos surpreendentes e novidades sobre filmes, música, jogos e celebridades</p>
+                <div class="hero-buttons">
+                    <a href="#curiosities" class="btn">Explorar</a>
+                    <a href="#newsletter" class="btn btn-outline">Newsletter</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="pop-item" data-tilt>
+                    <div class="pop-item-inner">
+                        <i class="fas fa-film"></i>
+                    </div>
+                </div>
+                <div class="pop-item" data-tilt>
+                    <div class="pop-item-inner">
+                        <i class="fas fa-music"></i>
+                    </div>
+                </div>
+                <div class="pop-item" data-tilt>
+                    <div class="pop-item-inner">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                </div>
+                <div class="pop-item" data-tilt>
+                    <div class="pop-item-inner">
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="curiosities" id="curiosities">
+            <h2>Curiosidades Pop</h2>
+            <div class="curiosities-grid">
+                <div class="curiosity-card">
+                    <div class="card-header">
+                        <i class="fas fa-film"></i>
+                        <h3>Filmes</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Sabia que em "Pulp Fiction", o conteúdo da mala é intencionalmente misterioso? Tarantino nunca revelou o que havia dentro!</p>
+                        <a href="filmes.html" class="btn btn-small">Mais curiosidades</a>
+                    </div>
+                </div>
+                <div class="curiosity-card">
+                    <div class="card-header">
+                        <i class="fas fa-music"></i>
+                        <h3>Música</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>A música "Happy Birthday" era protegida por direitos autorais até 2016, rendendo cerca de $2 milhões por ano em royalties.</p>
+                        <a href="musica.html" class="btn btn-small">Mais curiosidades</a>
+                    </div>
+                </div>
+                <div class="curiosity-card">
+                    <div class="card-header">
+                        <i class="fas fa-gamepad"></i>
+                        <h3>Jogos</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>O jogo mais caro já desenvolvido foi "Star Citizen", que custou mais de $400 milhões até agora e ainda está em desenvolvimento.</p>
+                        <a href="jogos.html" class="btn btn-small">Mais curiosidades</a>
+                    </div>
+                </div>
+                <div class="curiosity-card">
+                    <div class="card-header">
+                        <i class="fas fa-star"></i>
+                        <h3>Celebridades</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Tom Cruise faz suas próprias cenas de ação perigosas, incluindo a cena onde ele escala o Burj Khalifa em "Missão Impossível".</p>
+                        <a href="celebridades.html" class="btn btn-small">Mais curiosidades</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter" id="newsletter">
+            <div class="newsletter-content">
+                <h2>Assine nossa Newsletter</h2>
+                <p>Receba as curiosidades mais quentes do mundo pop diretamente no seu e-mail!</p>
+                <form id="newsletter-form">
+                    <input type="email" placeholder="Seu melhor e-mail" required>
+                    <button type="submit" class="btn">Assinar</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="trending">
+            <h2>Trending Now</h2>
+            <div class="trending-slider">
+                <div class="slider-container">
+                    <div class="slide">
+                        <img src="assets/images/taylor.jpg" alt="Trending 1">
+                        <div class="slide-content">
+                            <h3>Novo álbum de Taylor Swift</h3>
+                            <p>Descubra os easter eggs escondidos nas capas dos álbuns</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/marvel.jpg" alt="Trending 2">
+                        <div class="slide-content">
+                            <h3>Próximo filme da Marvel</h3>
+                            <p>Tudo o que sabemos sobre o próximo filme do Universo Cinematográfico</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/gta.jpg" alt="Trending 3">
+                        <div class="slide-content">
+                            <h3>GTA VI - Vazamentos</h3>
+                            <p>Os detalhes mais surpreendentes sobre o aguardado jogo</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span>POP</span><span>WORLD</span>
+            </div>
+            <div class="footer-links">
+                <div class="link-group">
+                    <h4>Explorar</h4>
+                    <ul>
+                        <li><a href="filmes.html">Filmes</a></li>
+                        <li><a href="musica.html">Música</a></li>
+                        <li><a href="jogos.html">Jogos</a></li>
+                        <li><a href="celebridades.html">Celebridades</a></li>
+                    </ul>
+                </div>
+                <div class="link-group">
+                    <h4>Sobre</h4>
+                    <ul>
+                        <li><a href="#">Sobre nós</a></li>
+                        <li><a href="#">Equipe</a></li>
+                        <li><a href="#">Termos de uso</a></li>
+                        <li><a href="#">Política de privacidade</a></li>
+                    </ul>
+                </div>
+                <div class="link-group">
+                    <h4>Contato</h4>
+                    <ul>
+                        <li><a href="contatos.html">Fale conosco</a></li>
+                        <li><a href="#">Trabalhe conosco</a></li>
+                        <li><a href="#">Publicidade</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-social">
+                <h4>Siga-nos</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 PopWorld. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+</body>
+</html>
